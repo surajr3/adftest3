@@ -1,0 +1,20 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AmazonS31",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "surajr3",
+				"folderPath": "test",
+				"fileName": "1.png"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
